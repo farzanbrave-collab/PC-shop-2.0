@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/app.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">پیسی شاپ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">درباره ما</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                بیشتر...
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">خدمات پس از فروش</a></li>
+                                <li><a class="dropdown-item" href="#">گارانتی</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">پشتیبانی</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">حساب کاربری</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="چی میخوای؟" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">جستجو</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <!-- Text content -->
+                        <h1 class="display-3 fw-bold">به پیسی شاپ خوش اومدید</h1>
+                        <p class="lead">پیسی شاپ ! جایی که میتونی پیسی اسمبل شده اماده سفارش بدی و یا حتی کاستومشون کنی
+                            !برای تجربه بهتر وارد حساب کاربری خودت
+                            شو.</p>
+                        <a href="./signin.html" class="btn btn-primary btn-lg">ورود/ثبت نام</a>
+                        <!-- Optional benefits -->
+                        <div class="benefits mt-3">
+                            <span class="me-3"><i class="fas fa-shipping-fast"></i> ارسال سریع</span>
+                            <span class="me-3"><i class="fas fa-check-circle"></i> گارانتی</span>
+                            <span class="me-3"><i class="fas fa-check-circle"></i> خدمات پس از فروش</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26rem" height="569.05811"
+                            viewBox="0 0 644.4629 569.05811" xmlns:xlink="http://www.w3.org/1999/xlink" role="img"
+                            artist="Katerina Limpitsouni" source="https://undraw.co/">
+                            <path
+                                d="M837.76318,506.37231H295.423a16.51866,16.51866,0,0,1-16.5-16.5V184.07251H854.26318v305.7998A16.51867,16.51867,0,0,1,837.76318,506.37231Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                            <path
+                                d="M816.18017,474.78882H317.00561a8.50958,8.50958,0,0,1-8.5-8.5V224.155a8.50958,8.50958,0,0,1,8.5-8.5H816.18017a8.50951,8.50951,0,0,1,8.5,8.5V466.28882A8.50951,8.50951,0,0,1,816.18017,474.78882Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#fff" />
+                            <path
+                                d="M855.41772,195.21851H277.76855V181.97095a16.51867,16.51867,0,0,1,16.5-16.5H838.91772a16.51867,16.51867,0,0,1,16.5,16.5Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#234cb9" />
+                            <path
+                                d="M435.07983,382.07983H346.23437a8.50958,8.50958,0,0,1-8.5-8.5V315.1731a8.50958,8.50958,0,0,1,8.5-8.5h88.84546a8.5095,8.5095,0,0,1,8.5,8.5v58.40673A8.5095,8.5095,0,0,1,435.07983,382.07983Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                            <path
+                                d="M790.72387,316.12866H510.009a4.72778,4.72778,0,1,1,0-9.45556H790.72387a4.72778,4.72778,0,0,1,0,9.45556Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                            <path
+                                d="M790.72387,349.94946H510.009a4.72754,4.72754,0,1,1,0-9.45508H790.72387a4.72754,4.72754,0,0,1,0,9.45508Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                            <path
+                                d="M790.72387,383.77075H510.009a4.72778,4.72778,0,1,1,0-9.45556H790.72387a4.72778,4.72778,0,0,1,0,9.45556Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                            <polygon
+                                points="419.548 556.311 407.288 556.311 401.456 509.023 419.55 509.023 419.548 556.311"
+                                fill="#a0616a" />
+                            <path
+                                d="M398.53106,552.80763h23.64387a0,0,0,0,1,0,0v14.88687a0,0,0,0,1,0,0H383.64421a0,0,0,0,1,0,0v0A14.88686,14.88686,0,0,1,398.53106,552.80763Z"
+                                fill="#2f2e41" />
+                            <polygon
+                                points="470.548 556.311 458.288 556.311 452.456 509.023 470.55 509.023 470.548 556.311"
+                                fill="#a0616a" />
+                            <path
+                                d="M449.53106,552.80763h23.64387a0,0,0,0,1,0,0v14.88687a0,0,0,0,1,0,0H434.64421a0,0,0,0,1,0,0v0A14.88686,14.88686,0,0,1,449.53106,552.80763Z"
+                                fill="#2f2e41" />
+                            <path
+                                d="M746.75526,710.91364H734.27553a4.5264,4.5264,0,0,1-4.48438-4.12793L719.21523,579.38727a1.49993,1.49993,0,0,0-2.98414-.05274l-15.1892,127.61133a4.50246,4.50246,0,0,1-4.46851,3.96778h-15.324a4.50533,4.50533,0,0,1-4.49781-4.47559c-.03369-8.01563-.08838-16.08984-.14306-24.165-.48633-71.92187-.98926-146.292,14.02856-175.42773l.137-.26563,54.19239-.92676.136.29786c16.39624,35.83007,11.41968,115.875,6.60694,193.2832l-.46314,7.459A4.50686,4.50686,0,0,1,746.75526,710.91364Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#2f2e41" />
+                            <circle cx="443.31365" cy="219.86366" r="24.56103" fill="#a0616a" />
+                            <path
+                                d="M687.59706,511.0943l.67676-28.16016-4.87232-21.97168a35.41574,35.41574,0,0,1,7.87525-31.11816,34.87749,34.87749,0,0,1,29.21948-12.11523h.00025q.53064.041,1.064.08886a35.02345,35.02345,0,0,1,24.13135,12.90723,35.43053,35.43053,0,0,1,7.76416,26.57422l-5.89429,51.5166Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#234cb9" />
+                            <path
+                                d="M666.73325,561.56408a10.05578,10.05578,0,0,0,.52738-15.41031l13.82828-32.95084-18.25062,3.42765-10.33354,30.76518a10.11027,10.11027,0,0,0,14.2285,14.16832Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#a0616a" />
+                            <path
+                                d="M771.0768,565.51366a10.05582,10.05582,0,0,1,.35026-15.41536L759.496,516.41406l18.026,4.4605,8.56637,31.30329a10.11027,10.11027,0,0,1-15.01158,13.33581Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#a0616a" />
+                            <path
+                                d="M668.9286,545.41754a4.50175,4.50175,0,0,1-1.83911-.39258l-10.52075-4.71289a4.49406,4.49406,0,0,1-2.44409-5.48535l17.6477-54.81933,6.82007-41.29981a11.09066,11.09066,0,1,1,21.74121,4.335l-10.36547,44.292L673.23354,542.23a4.49738,4.49738,0,0,1-4.30494,3.1875Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#234cb9" />
+                            <path
+                                d="M769.29091,545.41754A4.49738,4.49738,0,0,1,764.986,542.23L748.2599,487.36578l-10.374-44.32324a11.09067,11.09067,0,1,1,21.74121-4.335l6.83765,41.37207,17.63037,54.74707a4.49444,4.49444,0,0,1-2.44434,5.48535L771.13,545.025A4.50175,4.50175,0,0,1,769.29091,545.41754Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#234cb9" />
+                            <path
+                                d="M721.58714,358.18541c-6.82592-2.95688-15.743.7224-18.49775,7.63236-1.71446,4.30049-1.19131,9.151-.24607,13.68316s2.29287,9.055,2.148,13.6824-2.138,9.5386-6.24293,11.67936c-2.45278,1.27913-5.3218,1.42137-7.98081,2.18427s-5.40346,2.54653-5.78641,5.28618c-.57932,4.14451,4.448,7.30118,4.41447,11.48585-.03556,4.43388-5.57661,7.06694-6.2948,11.44242a7.59532,7.59532,0,0,0,2.929,6.75,19.90727,19.90727,0,0,0,6.88422,3.33272,118.80963,118.80963,0,0,0,59.2554,3.37627c3.91827-.78155,7.951-1.83834,10.99547-4.42573s4.78579-7.11653,3.03581-10.70836c-2.62352-5.38475-10.95329-5.69164-13.85626-10.931-1.74133-3.14282-.93971-7.0012-.57307-10.57543.94687-9.23058,3.13144-20.01391.83832-29.00512-2.07178-8.12333-6.5704-18.62032-13-24-4.61353-3.86016-13.42156-2.10141-19.31795-.91059Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#2f2e41" />
+                            <path d="M921.23145,734.52905h-350a1,1,0,0,1,0-2h350a1,1,0,0,1,0,2Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#ccc" />
+                            <path
+                                d="M884.37762,711.75751c-14.41968,19.311-44.352,21.34351-44.352,21.34351s-6.55353-29.27679,7.86615-48.58777,44.352-21.34357,44.352-21.34357S898.79724,692.44648,884.37762,711.75751Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                            <path
+                                d="M810.9209,719.017c9.51507,12.74273,29.2666,14.084,29.2666,14.084s4.32446-19.31891-5.19062-32.06165-29.2666-14.084-29.2666-14.084S801.40582,706.2743,810.9209,719.017Z"
+                                transform="translate(-277.76855 -165.47095)" fill="#e6e6e6" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- شبکه دسته‌ها -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">دسته‌بندی محصولات</h2>
+            <p class="text-muted">هر آنچه برای کامپیوترتان نیاز دارید را با یک کلیک پیدا کنید</p>
+        </div>
+        <!-- شبکه دسته‌ها -->
+        <div class="row g-4">
+
+            <!-- دسته 1: لپ‌تاپ -->
+            <div class="col-6 col-md-3">
+                <div class="card h-100 shadow-sm border-0 text-center p-4 category-card">
+                    <div class="category-icon mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor"
+                            class="bi bi-laptop" viewBox="0 0 16 16">
+                            <path
+                                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                        </svg>
+                    </div>
+                    <div class="card-body p-0">
+                        <h5 class="card-title">لپ‌تاپ</h5>
+                        <span class="badge bg-primary mt-2">۲۴۵ محصول</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- دسته 2: کیس و کامپیوتر آماده -->
+            <div class="col-6 col-md-3">
+                <div class="card h-100 shadow-sm border-0 text-center p-4 category-card">
+                    <div class="category-icon mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor"
+                            class="bi bi-pc-display" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z" />
+                        </svg>
+                    </div>
+                    <div class="card-body p-0">
+                        <h5 class="card-title">کیس و کامپیوتر آماده</h5>
+                        <span class="badge bg-primary mt-2">۱۰۰ محصول</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- دسته 3: قطعات کامپیوتر -->
+            <div class="col-6 col-md-3">
+                <div class="card h-100 shadow-sm border-0 text-center p-4 category-card">
+                    <div class="category-icon mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor"
+                            class="bi bi-cpu" viewBox="0 0 16 16">
+                            <path
+                                d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
+                        </svg>
+                    </div>
+                    <div class="card-body p-0">
+                        <h5 class="card-title">قطعات کامپیوتر</h5>
+                        <span class="badge bg-primary mt-2">۱۸۰ محصول</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- دسته 4: لوازم جانبی -->
+            <div class="col-6 col-md-3">
+                <div class="card h-100 shadow-sm border-0 text-center p-4 category-card">
+                    <div class="category-icon mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor"
+                            class="bi bi-mouse2" viewBox="0 0 16 16">
+                            <path
+                                d="M3 5.188C3 2.341 5.22 0 8 0s5 2.342 5 5.188v5.625C13 13.658 10.78 16 8 16s-5-2.342-5-5.188V5.189zm4.5-4.155C5.541 1.289 4 3.035 4 5.188V5.5h3.5zm1 0V5.5H12v-.313c0-2.152-1.541-3.898-3.5-4.154M12 6.5H4v4.313C4 13.145 5.81 15 8 15s4-1.855 4-4.188z" />
+                        </svg>
+                    </div>
+                    <div class="card-body p-0">
+                        <h5 class="card-title">لوازم جانبی</h5>
+                        <span class="badge bg-primary mt-2">۳۱۰ محصول</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <style>
+            .category-card {
+                border-radius: 18px;
+                transition: all 0.3s ease;
+                background: #fff;
+                overflow: hidden;
+                /* برای اینکه آیکون از دایره بیرون نزنه */
+            }
+
+            .category-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+            }
+
+            .category-icon {
+                width: 72px;
+                height: 72px;
+                margin: 0 auto;
+                border-radius: 50%;
+                /* --- رنگ‌های متفاوت برای هر دسته --- */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-size: 2rem;
+                transition: all 0.3s ease;
+            }
+
+            /* رنگ‌های سفارشی برای هر دسته */
+            .col-6:nth-child(1) .category-icon {
+                background: linear-gradient(135deg, #0d6efd, #66b2ff);
+            }
+
+            /* لپ‌تاپ */
+            .col-6:nth-child(2) .category-icon {
+                background: linear-gradient(135deg, #198754, #5cb870);
+            }
+
+            /* کیس */
+            .col-6:nth-child(3) .category-icon {
+                background: linear-gradient(135deg, #dc3545, #f08080);
+            }
+
+            /* قطعات */
+            .col-6:nth-child(4) .category-icon {
+                background: linear-gradient(135deg, #ffc107, #ffd700);
+            }
+
+            /* لوازم جانبی */
+
+
+            .card-title {
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+                font-size: 1.1rem;
+                /* اندازه فونت عنوان دسته */
+            }
+
+            .badge {
+                font-size: 0.85em;
+                /* اندازه فونت تعداد محصول */
+            }
+        </style>
+        <br>
+        <div class="container my-4 d-flex justify-content-center">
+            <button class="btn btn-primary px-4 py-2" data-bs-toggle="offcanvas" data-bs-target="#proFilters">
+                <i class="bi bi-sliders"></i> دسته‌بندی حرفه‌ای
+            </button>
+        </div>
+        <div class="offcanvas offcanvas-start p-4" tabindex="-1" id="proFilters">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title fw-bold">فیلتر و دسته‌بندی حرفه‌ای</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+
+                <!-- جستجو -->
+                <div class="mb-4">
+                    <h6 class="fw-bold mb-2">جستجو</h6>
+                    <input type="search" class="form-control" placeholder="جستجوی محصول...">
+                </div>
+
+                <hr>
+
+                <!-- دسته‌بندی‌ها -->
+                <div class="accordion" id="filterAccordion">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#catCollapse">
+                                دسته‌بندی‌ها
+                            </button>
+                        </h2>
+                        <div id="catCollapse" class="accordion-collapse collapse show"
+                            data-bs-parent="#filterAccordion">
+                            <div class="accordion-body">
+                                <label class="form-check d-block mb-2">
+                                    <input class="form-check-input" type="checkbox"> لپ‌تاپ
+                                </label>
+                                <label class="form-check d-block mb-2">
+                                    <input class="form-check-input" type="checkbox"> مانیتور
+                                </label>
+                                <label class="form-check d-block mb-2">
+                                    <input class="form-check-input" type="checkbox"> کیبورد و ماوس
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <hr>
+
+                <!-- فیلتر قیمت -->
+                <div class="mb-4">
+                    <h6 class="fw-bold mb-2">فیلتر قیمت</h6>
+                    <div class="row g-2">
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="حداقل">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="حداکثر">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- فیلتر برند -->
+                <div class="mb-4">
+                    <h6 class="fw-bold mb-2">برند</h6>
+                    <select class="form-select">
+                        <option disabled selected>انتخاب برند</option>
+                        <option>Asus</option>
+                        <option>MSI</option>
+                        <option>HP</option>
+                        <option>Lenovo</option>
+                    </select>
+                </div>
+
+                <hr>
+
+                <!-- دکمه اعمال -->
+                <div class="text-center">
+                    <button class="btn btn-primary px-4 py-2 w-100">
+                        <i class="bi bi-filter"></i> اعمال فیلتر
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <div class="container my-5">
+            <h2 class="text-center mb-5 fw-bold">کیس های اماده</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <style>
+                    .product-card {
+                        height: 100%;
+                        border: 0;
+                        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+                        transition: 0.3s ease;
+                        overflow: hidden;
+                    }
+
+                    .product-card:hover {
+                        transform: translateY(-4px);
+                        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+                    }
+
+                    .product-img-wrapper {
+                        width: 100%;
+                        height: 240px;
+                        /* ارتفاع ثابت */
+                        background: #f8f9fa;
+                        /* پس‌زمینه روشن برای عکس‌های کوچک */
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                    }
+
+                    .product-img-wrapper img {
+                        max-width: 100%;
+                        max-height: 100%;
+                        object-fit: contain;
+                        /* کل تصویر دیده می‌شود */
+                        display: block;
+                    }
+
+                    .product-card .btn {
+                        min-width: 160px;
+                        padding: 0.7rem 1.3rem;
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                </style>
+
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC1.png" alt="Product 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس کلاسیک</h5>
+                            <p class="card-text text-muted">کیس کلاسیک مناسب برای استفاده روزمره و کمی گیم 1</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">20,500,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <span class="text-muted">(120)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC2.png" alt="Product 2">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس بلواسکای</h5>
+                            <p class="card-text text-muted">این کیس مناسب استفاده گیمینگ و رندرینگ است</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">30,200,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                    <span class="text-muted">(85)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC3.png" alt="Product 3">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس گیم شاین</h5>
+                            <p class="card-text text-muted">این کیس مناسب اجرای همه بازی های نسل جدید میباشد</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">55,000,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                    <span class="text-muted">(210)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC4.png" alt="Product 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس اقتصادی</h5>
+                            <p class="card-text text-muted">کیس اقتصادی مناسب اداره و کارهای اداری</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">18,000,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="text-muted">(155)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC6.png" alt="Product 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس دراگون</h5>
+                            <p class="card-text text-muted">با این کیس همه بازی هارو مثبت 200 فریم بگیر</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">126,000,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="text-muted">(5)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC7.png" alt="Product 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس گیمینگ لایتینگ</h5>
+                            <p class="card-text text-muted">کیس خانگی مناسب وبگردی ذخیره اطلاعات و کارهای سبک</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">200,000,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="text-muted">(26)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC5.png" alt="Product 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس خانگی مدل هوم لاین</h5>
+                            <p class="card-text text-muted">فقط برای کارهای روزمره مناسب وبگردی و تماشای فیلم </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">10,000,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="text-muted">(126)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card product-card">
+                        <div class="product-img-wrapper">
+                            <img src="./images/PC8.png" alt="Product 4">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">کیس خانگی مدل هوم شاین</h5>
+                            <p class="card-text text-muted">مناسب برای کارهای روزمره و اداره همچنین دارای گرافیک مجزا
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-success">12,000,000 تومان</span>
+                                <div>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="text-muted">(17)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+                            <a href="./products-info.html" target="_blank" class="btn btn-outline-primary">مشاهده
+                                جزئیات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-center mb-5 fw-bold">قطعات کامپیوتر(به زودی)</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+    </main>
+    <div>
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <!-- متن سمت چپ/بالا -->
+                    <div class="col-lg-6">
+                        <div class="p-4 p-md-5 bg-primary text-white rounded-4 shadow-sm h-100">
+                            <span class="badge bg-warning text-dark mb-3 px-3 py-2 fs-6">پیشنهاد ویژه</span>
+                            <h2 class="fw-bold mb-3">فرصت محدود برای خرید محصولات پرفروش</h2>
+                            <p class="mb-4 fs-5">
+                                همین حالا از تخفیف‌های ویژه روی کیس‌های گیمینگ، اداری و اقتصادی استفاده کن و با بهترین
+                                قیمت خریدت را انجام بده.
+                            </p>
+                            <a href="#" class="btn btn-light btn-lg fw-bold px-4">
+                                مشاهده همه پیشنهادها
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- کارت‌های فروش بیشتر -->
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-4 col-md-3 bg-light p-3 text-center">
+                                            <i class="bi bi-lightning-charge-fill text-warning fs-1"></i>
+                                        </div>
+                                        <div class="col-8 col-md-9">
+                                            <div class="card-body">
+                                                <h5 class="fw-bold mb-1">تخفیف روی محصولات منتخب</h5>
+                                                <p class="text-muted mb-2">قیمت‌های ویژه فقط برای مدت محدود</p>
+                                                <a href="#" class="text-decoration-none fw-semibold">مشاهده تخفیف‌ها
+                                                    ←</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-4 col-md-3 bg-light p-3 text-center">
+                                            <i class="bi bi-cart-check-fill text-success fs-1"></i>
+                                        </div>
+                                        <div class="col-8 col-md-9">
+                                            <div class="card-body">
+                                                <h5 class="fw-bold mb-1">محصولات پرفروش این هفته</h5>
+                                                <p class="text-muted mb-2">انتخاب شده بر اساس خرید کاربران</p>
+                                                <a href="#" class="text-decoration-none fw-semibold">دیدن پرفروش‌ها
+                                                    ←</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-4 col-md-3 bg-light p-3 text-center">
+                                            <i class="bi bi-gift-fill text-danger fs-1"></i>
+                                        </div>
+                                        <div class="col-8 col-md-9">
+                                            <div class="card-body">
+                                                <h5 class="fw-bold mb-1">هدیه ویژه برای خریدهای بیشتر</h5>
+                                                <p class="text-muted mb-2">با خرید بالای مبلغ مشخص، هدیه بگیر</p>
+                                                <a href="#" class="text-decoration-none fw-semibold">جزئیات هدیه ←</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4 text-center">
+
+                <div class="col-md-3 col-6">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <i class="bi bi-shield-check text-primary fs-1 mb-3"></i>
+                        <h5 class="fw-bold mb-2">پرداخت امن</h5>
+                        <p class="text-muted mb-0">خریدی مطمئن با درگاه‌های معتبر بانکی</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <i class="bi bi-truck text-success fs-1 mb-3"></i>
+                        <h5 class="fw-bold mb-2">ارسال سریع</h5>
+                        <p class="text-muted mb-0">تحویل سفارش در کوتاه‌ترین زمان ممکن</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <i class="bi bi-headset text-warning fs-1 mb-3"></i>
+                        <h5 class="fw-bold mb-2">پشتیبانی 24 ساعته</h5>
+                        <p class="text-muted mb-0">همراه شما در تمام مراحل خرید</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <i class="bi bi-arrow-repeat text-danger fs-1 mb-3"></i>
+                        <h5 class="fw-bold mb-2">ضمانت بازگشت کالا</h5>
+                        <p class="text-muted mb-0">خرید بدون نگرانی با امکان بازگشت</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer style="width: 100%;" class="bg-dark text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- برند -->
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="fw-bold mb-3">فروشگاه پیسی شاپ</h4>
+                    <p class="text-secondary">
+                        فروشگاه پیسی شاپ با ارائه محصولات متنوع، قیمت مناسب و ارسال سریع، تجربه‌ای مطمئن از خرید آنلاین
+                        را
+                        برای شما فراهم می‌کند.
+                    </p>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-telegram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+                <!-- لینک‌های سریع -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">لینک‌های سریع</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">صفحه اصلی</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">محصولات</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">پیشنهاد ویژه</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">درباره ما</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">تماس با ما</a></li>
+                    </ul>
+                </div>
+
+                <!-- خدمات -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">خدمات</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">ارسال سریع</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">پرداخت امن</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">ضمانت کالا</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">پشتیبانی 24 ساعته</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- اطلاعات تماس -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold mb-3">اطلاعات تماس</h5>
+                    <p class="mb-2 text-secondary"><i class="bi bi-geo-alt-fill me-2"></i>تهران، خیابان ولیعصر، فروشگاه
+                        پیسی شاپ</p>
+                    <p class="mb-2 text-secondary"><i class="bi bi-telephone-fill me-2"></i>021-12345678</p>
+                    <p class="mb-2 text-secondary"><i class="bi bi-envelope-fill me-2"></i>info@PCshop.com</p>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary my-4">
+
+            <div class="text-center text-secondary">
+                <p class="mb-0">© 2026 فروشگاه پیسی شاپ. تمامی حقوق محفوظ است.</p>
+                <p class="mb-0">ساخته شده توسط فرزان سعادتی</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

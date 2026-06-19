@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url(../fonts/Vazir.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Vazir' !important;
+}
+.product-details img.img-thumbnail {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-details img.img-thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.product-details .badge {
+  border-radius: 12px;
+}
+a{
+    text-decoration: none;
+}

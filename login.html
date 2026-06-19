@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فرم ورود</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/app.css">
+    <style>
+        /* استایل‌های اضافی برای ظاهر بهتر */
+        .card {
+            border-radius: 10px;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .form-label {
+            font-weight: 500;
+        }
+
+        .form-control:focus {
+            border-color: #0d6efd;
+            /* رنگ آبی بوت استرپ */
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+        .btn-primary:hover {
+            background-color: #0b5ed7;
+            border-color: #0b5ed7;
+        }
+
+        .link-register {
+            font-size: 0.9rem;
+        }
+
+        /* برای مخفی کردن پیام فراموشی رمز عبور */
+        .forgot-password-link {
+            display: block;
+            text-align: right;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body class="bg-light d-flex align-items-center justify-content-center min-vh-100">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+
+                <div class="card shadow-lg border-0">
+                    <div class="card-body p-4 p-md-5">
+                        <h1 class="text-center mb-4 text-primary fw-bold">ورود به حساب کاربری</h1>
+
+                        <form class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="emailOrMobile" class="form-label">ایمیل یا شماره موبایل</label>
+                                <input type="text" class="form-control" id="emailOrMobile"
+                                    placeholder="ایمیل یا شماره موبایل" required>
+                                <div class="invalid-feedback">
+                                    لطفاً ایمیل یا شماره موبایل خود را وارد کنید.
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">رمز عبور</label>
+                                <input type="password" class="form-control" id="password" placeholder="رمز عبور"
+                                    required>
+                                <div class="invalid-feedback">
+                                    لطفاً رمز عبور خود را وارد کنید.
+                                </div>
+                            </div>
+
+                            <!-- لینک فراموشی رمز عبور -->
+                            <a href="#" class="text-decoration-none text-primary forgot-password-link">رمز عبور خود را
+                                فراموش کرده‌اید؟</a>
+
+                            <!-- لینک ثبت نام -->
+                            <div class="text-center mb-3 link-register">
+                                حساب کاربری ندارید؟ <a href="./signin.html" class="text-decoration-none text-primary">ثبت نام</a>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100 fw-bold">
+                                ورود
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // اسکریپت جاوااسکریپت برای اعتبارسنجی فرم
+        (() => {
+            'use strict'
+
+            // گرفتن تمام فرم‌هایی که باید اعتبارسنجی شوند
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // حلقه زدن بر روی آن‌ها و اضافه کردن شنونده رویداد
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+
+</html>
+
+
+</html>
+
+
+</html>
