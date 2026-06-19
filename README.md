@@ -6,4 +6,4 @@ This project simulates a real-world online computer parts store with a responsiv
 ---
 
 ## 🚀 Live Demo
-> (اگر داری اینجا لینک سایتت رو بگذار)
+> (https://farzanbrave-collab.github.io/PC-shop-2.0/)
