@@ -1,27 +1,9 @@
+# 🖥️ PC Shop 2.0
+
+An elegant and modern **PC hardware e-commerce website** built with HTML, CSS, JavaScript, and Bootstrap.  
+This project simulates a real-world online computer parts store with a responsive UI and user-friendly experience.
 
 ---
 
-## 🎯 Purpose of Project
-
-This project was built to improve front-end development skills and practice:
-
-- UI/UX design for e-commerce websites
-- Responsive layout with Bootstrap
-- Component-based design thinking
-- Real-world shopping system structure
-
----
-
-## 🧠 Future Improvements
-
-- 🛒 Add shopping cart functionality
-- 🔐 User authentication system
-- 💳 Payment gateway integration
-- 📦 Backend with Node.js / Django
-- 🔎 Product filtering and search system
-
----
-
-## 📸 Preview
-
-> (اینجا میتونی اسکرین‌شات پروژه رو اضافه کنی)
+## 🚀 Live Demo
+> (اگر داری اینجا لینک سایتت رو بگذار)
