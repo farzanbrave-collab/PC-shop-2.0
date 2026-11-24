@@ -1,9 +1,27 @@
 # 🖥️ PC Shop 2.0
 
-An elegant and modern **PC hardware e-commerce website** built with HTML, CSS, JavaScript, and Bootstrap.  
-This project simulates a real-world online computer parts store with a responsive UI and user-friendly experience.
+A modern, responsive Persian PC hardware storefront built with HTML, CSS, and JavaScript.
+
+## 🚀 Live Demo
+
+**[View PC Shop Live](https://farzanbrave-collab.github.io/PC-shop-2.0/)**
+
+## ✨ Features
+
+- Responsive layout for desktop, tablet, and mobile
+- Custom mobile navigation with a working hamburger menu
+- Product categories and featured products
+- Interactive shopping cart with quantity controls and subtotal
+- Cart persistence using browser local storage
+- Dark navy, blue, and cyan visual design
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts (Vazirmatn)
 
 ---
 
-## 🚀 Live Demo
-> (https://farzanbrave-collab.github.io/PC-shop-2.0/)
+Designed and developed by **Farzan S'adati**.
